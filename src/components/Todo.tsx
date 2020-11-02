@@ -5,7 +5,13 @@ interface TodoProps{
 };
     
 const Todo: React.FC<TodoProps> = props => {
-    return <ul>TODO.tsxから来ています</ul>
+    return ( 
+    <ul>
+        {props.items.map(list => (
+        <li key={list.id}>{list.text}</li>
+        ))}
+    </ul>
+    )
 }
 
 export default Todo;
