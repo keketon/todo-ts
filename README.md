@@ -1,3 +1,9 @@
+参考にしたページ
+
+https://qiita.com/Kojiro-schatten/items/46de2b78a17ae4b18291
+https://qiita.com/oimo23/items/239686d1fe7bb5880182
+https://www.webopixel.net/javascript/1598.html
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
