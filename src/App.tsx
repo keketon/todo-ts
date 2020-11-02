@@ -3,9 +3,10 @@ import Todo from './components/Todo';
 
 // FCはFunction Componentらしい。
 const App: React.FC = () => {
+  const todo = [{id: "1", text: "洗濯する"}]
   return (
     <div className="App">
-      <Todo />
+      <Todo items={todo}/>
     </div>
   );
 }

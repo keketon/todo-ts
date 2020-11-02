@@ -1,7 +1,11 @@
 import React from "react";
 
-const Todo = () => {
-    return <ul>TODO list　から来ています</ul>
+interface TodoProps{
+    items: {id: string, text: string}[]
+};
+    
+const Todo: React.FC<TodoProps> = props => {
+    return <ul>TODO.tsxから来ています</ul>
 }
 
-export default Todo
+export default Todo;
