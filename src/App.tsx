@@ -1,8 +1,11 @@
 import React from 'react';
+import Todo from './components/Todo';
 
-function App() {
+// FCはFunction Componentらしい。
+const App: React.FC = () => {
   return (
     <div className="App">
+      <Todo />
     </div>
   );
 }
