@@ -1,17 +1,17 @@
 import React from "react";
 
-interface TodoProps{
-    items: {id: string, text: string}[]
+interface TodoProps {
+  items: { id: string, text: string }[]
 };
-    
+
 const Todo: React.FC<TodoProps> = props => {
-    return ( 
+  return (
     <ul>
-        {props.items.map(list => (
+      {props.items.map(list => (
         <li key={list.id}>{list.text}</li>
-        ))}
+      ))}
     </ul>
-    )
+  )
 }
 
 export default Todo;
